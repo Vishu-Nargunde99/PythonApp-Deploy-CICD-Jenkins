@@ -1,6 +1,9 @@
 # Python App Deployment Via CICD-Jenkins
 
-## Introduction 
+## Introduction :
+Deploying applications manually can take a lot of time and may lead to mistakes. To make this process easier, faster, and more reliable, we use Jenkins with a CI/CD pipeline. In this project, we have set up a pipeline that automatically takes the Python application code, tests it, and then deploys it without needing to do everything by hand. Whenever a change is made in the code, Jenkins makes sure the updated application is quickly and safely delivered. This helps in saving time, reducing errors, and keeping the application always up to date.
+
+Lets start the step by step Python-App Deployment.
 
 # Step 1 : Create Python-App Server
 Lunch Instnace
@@ -108,7 +111,12 @@ http://54.81.24.101:8080/github-webhook/
 - Add webhook
 - Now you can just chnage your code then add, commit and push code to your reposotory.
 
+![project screenshot](/Images/final%20outpur.PNG)
 
+Congratualion!.....You can deployed your Python application using CICD.
+
+## 📄 Summary
+This project demonstrates the deployment of a Python application using a CI/CD pipeline in Jenkins. The pipeline automates the entire process starting from code checkout, dependency installation, testing, building, and deployment on the target server. Jenkins is integrated with GitHub for continuous integration and configured with build triggers to ensure every code change is tested and deployed automatically. The setup ensures faster delivery, minimal manual intervention, and reliable deployments for the Python application.
 
 
 
