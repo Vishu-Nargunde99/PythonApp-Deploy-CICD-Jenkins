@@ -51,9 +51,9 @@ In the jenkins you have to install some plugins for build CICD pipeline Fr that 
 
 For Python-App application code you take from this repository https://github.com/Vishu-Nargunde99/PythonApp-Deploy-CICD-Jenkins 
 
-You can clone this repo on your local machine and upload to your GitHub account. This code we can use anytime when you want to install nodejs application.
+You can clone this repo on your local machine and upload to your GitHub account. This code we can use anytime when you want to install python application.
 
-## Step 5 : Step 6 : Create Credential
+## Step 5 : Create Credential
 - Click on Setting
 - In security section --> Credential --> Click on global --> Add Credential
     - Kind - SSH Username with private key
