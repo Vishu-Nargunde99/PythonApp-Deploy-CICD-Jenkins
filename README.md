@@ -83,6 +83,27 @@ Here our credential is created
 - Click on "Save".
 - Click on "Build Now"
 
+![project screenshot](/Images/build%20succ.PNG)
+
+Here build now is successfull.
+
+1
+
+## Step 7 : Generate Automate code push
+- Log in into your GitHub Account
+- Go to your code repository of Nodejs
+- Click on setting
+- Click on webhook
+- Add webhook
+- payload URl
+```
+http://<jenkins-server-public-ip>:8080/github-webhook/
+
+Example
+http://54.81.24.101:8080/hithub-webhook/
+```
+- Add webhook
+- Now you can just chnage your code then add, commit and push code to your reposotory.
 
 
 
