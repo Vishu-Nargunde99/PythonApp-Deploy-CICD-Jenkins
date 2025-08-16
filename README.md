@@ -43,7 +43,7 @@ In the jenkins you have to install some plugins for build CICD pipeline Fr that 
 
 ## Step 4 : Create Job For python-app deployment
 - Click on "New Item"
-- Enter an item name : NodeJs-Deployment
+- Enter an item name : Python-App-Deployment
 - Select an item type : pipeline
 - Click on Ok
 
