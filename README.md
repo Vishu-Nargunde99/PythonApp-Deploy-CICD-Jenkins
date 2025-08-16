@@ -28,6 +28,7 @@ scp -i <key-file-name> <key-file-name> username@public-ip:defaultpath
 example :
 scp -i jenkins-file.pem jenkins-file.pem ubuntu@54.81.24.101:/home/ubuntu
 ```
+Note : If you alredy copied your private key then skip this step.
 ## Step 3 : Install required plugins
 In the jenkins you have to install some plugins for build CICD pipeline Fr that you have to follow below steps if you alredy installed then skip this step. 
 
@@ -40,6 +41,7 @@ In the jenkins you have to install some plugins for build CICD pipeline Fr that 
     - ssh build agent --> install
     - github --> install
 - Now restart the jenkins.
+Note : If you alredy installed plugins then skip this step .
 
 ## Step 4 : Create Job For python-app deployment
 - Click on "New Item"
@@ -53,7 +55,7 @@ For Python-App application code you take from this repository https://github.com
 
 You can clone this repo on your local machine and upload to your GitHub account. This code we can use anytime when you want to install python application.
 
-## Step 5 : Create Credential
+## Step 5 : Create Credential 
 - Click on Setting
 - In security section --> Credential --> Click on global --> Add Credential
     - Kind - SSH Username with private key
